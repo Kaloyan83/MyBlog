@@ -9,7 +9,7 @@ namespace MyBlog.Models
    
     public class ApplicationUser : IdentityUser
     {
-        [StringLenght(100)]
+      
         public string FullName { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
