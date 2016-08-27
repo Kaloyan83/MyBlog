@@ -31,5 +31,16 @@ textarea {
     background:#eae3de;
     margin:0;
     padding:10px;
-    border-radius:5px;
+    
+}
+
+.post{
+    margin-top:10px;
+}
+
+.post>h1,.post>h2, .post>div {
+    background:#eae3de;
+    margin:0;
+    padding:10px;
+    
 }
