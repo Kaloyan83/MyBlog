@@ -24,6 +24,7 @@ namespace MyBlog.Models
 
 
         [Required]
+        [DataType(DataType.MultilineText)]
         [Display(Name = "Описание")]
         public string Body { get; set; }
 
